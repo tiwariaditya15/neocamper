@@ -21,6 +21,7 @@ ul {
 
 .link {
     text-decoration: none;
+    outline: none;
     display: inline;    
 }
 
@@ -196,6 +197,21 @@ header{
 
 .card-heading a:hover{
     transform: scale(0.98);
+}
+
+/* blogs.html */
+
+.blogs .flex{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-blog-image img{
+    max-width: 430px;
+    border-radius: 5px;
+}
+.rights{
+    padding-top: 8px;
 }
 
 
