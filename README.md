@@ -1,6 +1,5 @@
 ## The portofolio has blogs and projects and is hosted [here](https://tiwariaditya.netlify.app/index.html).
 ***
-
 ### Technologies used
 * HTML5
   * Basic Tags
@@ -10,7 +9,6 @@
 * Javascript(ES6)
   * async/await
   * fetch 
-  
 ***
 ### dev.to API to fetch blogs
 > dev.to/api/articles?username=tiwariaditya
