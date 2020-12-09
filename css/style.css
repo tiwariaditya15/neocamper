@@ -15,6 +15,11 @@ body{
     font-family: 'Nunito', sans-serif;;
 }
 
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
 ul {
     list-style-type: none;
 }
@@ -59,23 +64,9 @@ ul {
     font-weight: bolder;
 }
 
-.flex{
-    display: flex;
-    justify-content: space-between;
-}
-
 .hero-image img{
-    max-width: 600px;
+    max-width: 40%;
 }
-
-.box {
-    /* flex:50%;  */
-    min-width: 500px;
-} 
-
-/* .box-2{
-    flex:50%;
-} */
 
 .highlight{
     font-size: 50px;
@@ -84,7 +75,11 @@ ul {
 }
 .hero-text p{
     font-size: 35px;
-    margin-top: 10rem;
+    margin: 3rem auto;
+}
+
+.hero-section .flex{
+    flex-wrap: wrap;
 }
 
 header{
@@ -97,6 +92,11 @@ header{
 .technologies img{
     max-width: 150px;
     margin: 5px 0;
+}
+
+.technologies .flex{
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .projects{
@@ -139,7 +139,7 @@ header{
 
 .footer{
     background-color: var(--primary-color);
-    height: 140px;
+    height: 160px;
     color: white;   
     bottom:0;
     width:100%;
@@ -207,12 +207,14 @@ header{
 }
 
 .card-blog-image img{
-    max-width: 430px;
+    max-width: 100%;
     border-radius: 5px;
 }
 .rights{
     padding-top: 8px;
 }
 
-
-
+.project-link{
+    display: block;
+    padding: 0.3rem;
+}
