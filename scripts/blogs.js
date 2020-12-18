@@ -16,7 +16,7 @@ const createCard = (res) => {
                 <div class="card-heading">
                     <p class="header">${res.title}</p>
                     <p class="text">${res.description}</p>
-                    <div class="project-link"><a href="${res.url}" class="link">Read here-></a></div>
+                    <div class="project-link"><a href="${res.url}" class="link">Read here &rarr;</a></div>
                 </div>
             </div> </div>`;
             document.querySelector(".blogs").insertAdjacentHTML('afterbegin', blog);
